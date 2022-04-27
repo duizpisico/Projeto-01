@@ -1,0 +1,17 @@
+public class filme {
+	int id;
+	String filme;
+	String categoria;
+	String tempo;
+	String sequencia;
+	
+	public filme() {};
+	
+	public  filme(int id, String filme, String categoria, String tempo, String sequencia) {
+		
+		this.id = id;
+		this.filme = filme;
+		this.categoria = categoria;
+		this.tempo = tempo;
+		this.sequencia = sequencia;
+		
