@@ -1,0 +1,18 @@
+import java.util.*;
+public class Programa {
+
+	public static void main(String[] args) {
+		Filme marvel = new Filme();
+		marvel.id = 1;
+		marvel.filme = "Capitã Marvel";
+		marvel.categoria = "Ação";
+		marvel.duracao = "02:04:00";
+		
+		System.out.println("ID: " + marvel.id);
+		System.out.println("Filme: " + marvel.filme);
+		System.out.println("Categoria: " + marvel.categoria);
+		System.out.println("duração: " + marvel.duracao);
+
+	}
+
+}
